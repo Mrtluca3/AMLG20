@@ -14,5 +14,5 @@
 
 # %%
 import torch
-import numpy 
+import numpy as np
 print(torch.__version__)
