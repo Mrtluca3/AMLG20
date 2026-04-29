@@ -16,6 +16,7 @@
 import torch
 import numpy as np
 from torch import nn
+import pandas as pd
 import matplotlib.pyplot as plt
 print(torch.__version__)
 
@@ -27,7 +28,6 @@ fn_signal= r"Drive/file.h5"
 fn_back=r"Drive/back.h5"
 
 # %% id="VQvQp1hCN5dE"
-import pandas as pd
 df_test = pd.read_hdf(fn_back,stop=10000)
 print(df_test.shape)
 print("Memory in GB:",sum(df_test.memory_usage(deep=True)) / (1024**3))
