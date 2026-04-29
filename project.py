@@ -23,7 +23,7 @@ print(torch.__version__)
 
 # %% id="cBTEeaKMOCT3"
 fn_signal= r"file.h5"
-fn_back=r"percorsofile"
+fn_back=r"back."
 
 # %% id="VQvQp1hCN5dE"
 import pandas as pd
