@@ -12,7 +12,7 @@
 #     name: g20kernel
 # ---
 
-# %% id="e6b6d665"
+# %% id="e6b6d665" colab={"base_uri": "https://localhost:8080/"} executionInfo={"status": "ok", "timestamp": 1777495289213, "user_tz": -120, "elapsed": 5448, "user": {"displayName": "Luca MARTINI", "userId": "16799133474698479044"}} outputId="adb408e0-887f-48c8-bb5a-0a94468958f5"
 import torch
 import numpy as np
 from torch import nn
