@@ -20,3 +20,16 @@ print(torch.__version__)
 
 # %% [markdown] id="pG85vCDOJYqq"
 # # Preprocessing
+
+# %% id="cBTEeaKMOCT3"
+fn_signal= r"G:\Il mio Drive\IV anno\AML\dataset\events_LHCO2020_BlackBox1.h5"
+fn_back=r"G:\Il mio Drive\IV anno\AML\dataset\events_LHCO2020_backgroundMC_Pythia.h5"
+
+# %% id="VQvQp1hCN5dE"
+import pandas as pd
+df_test = pd.read_hdf(fn_back,stop=10000)
+print(df_test.shape)
+print("Memory in GB:",sum(df_test.memory_usage(deep=True)) / (1024**3))
+
+print(df_test.head())
+print(df_test.shape)
