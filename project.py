@@ -23,8 +23,8 @@ print(torch.__version__)
 # # Preprocessing
 
 # %% id="cBTEeaKMOCT3"
-fn_signal= r"file.h5"
-fn_back=r"back.h5"
+fn_signal= r"Drive/file.h5"
+fn_back=r"Drive/back.h5"
 
 # %% id="VQvQp1hCN5dE"
 import pandas as pd
