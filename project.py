@@ -12,7 +12,8 @@
 #     name: g20kernel
 # ---
 
-# %%
+# %% id="e6b6d665"
 import torch
 import numpy as np
+from torch import nn
 print(torch.__version__)
