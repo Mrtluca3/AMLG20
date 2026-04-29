@@ -16,6 +16,7 @@
 import torch
 import numpy as np
 from torch import nn
+import matplotlib.pyplot as plt
 print(torch.__version__)
 
 # %% [markdown] id="pG85vCDOJYqq"
